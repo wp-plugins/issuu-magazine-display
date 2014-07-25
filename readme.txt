@@ -15,14 +15,14 @@ This will display up to 30 of your magazines or publications that are hosted on 
 
 == Installation ==
 
-    First download this plugin to your desktop.
-    Extract the Plugin folder to your desktop.
-    Read through this "readme" file thoroughly to ensure you follow the installation instructions.
-    Using your FTP program, upload the Plugin folder to the wp-content/plugins folder in your WordPress directory online.
-    Inside your WordPress admin area, head to the Plugins screen and find the newly uploaded Plugin in the list.
-    Click on Activate Plugin to activate it.
-    Click on the Settings link under the plugin name to enter your API key and secret and click save
-    Copy and paste the shortcode [display_magazines] into any page where you would like the magazine listing to display
+First download this plugin to your desktop.
+Extract the Plugin folder to your desktop.
+Read through this "readme" file thoroughly to ensure you follow the installation instructions.
+Using your FTP program, upload the Plugin folder to the wp-content/plugins folder in your WordPress directory online.
+Inside your WordPress admin area, head to the Plugins screen and find the newly uploaded Plugin in the list.
+Click on Activate Plugin to activate it.
+Click on the Settings link under the plugin name to enter your API key and secret and click save
+Copy and paste the shortcode [display_magazines] into any page where you would like the magazine listing to display
 
 == Frequently Asked Questions ==
 
