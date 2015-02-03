@@ -41,8 +41,11 @@ After logging in, click on the green button that says 'CREATE API KEY'. You will
 
 == Changelog ==
 
+= 1.0.2 =
+* Fixed broken link
+
 = 1.0.1 =
-*Fixed readme file.
+* Adjusted readme file.
 
 = 1.0 =
 * Initial Release
