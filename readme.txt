@@ -3,7 +3,7 @@ Contributors: sightfactory
 Tags: issuu, magazine
 Requires at least: 3.4
 Tested up to: 3.9.1
-Stable tag: 1.0.1
+Stable tag: 1.0.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -41,8 +41,14 @@ After logging in, click on the green button that says 'CREATE API KEY'. You will
 
 == Changelog ==
 
+= 1.0.3 =
+* Miscellaneous Fixes
+
+= 1.0.2 =
+* Fixed broken link
+
 = 1.0.1 =
-*Fixed readme file.
+* Adjusted readme file.
 
 = 1.0 =
 * Initial Release

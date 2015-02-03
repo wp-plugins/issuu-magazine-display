@@ -2,7 +2,7 @@
 /**
  * Plugin Name: ISSUU Magazine Display
  * Description: This plugin will display up to 30 of your magazines that are hosted on ISSUU. 
- * Version: 1.0.0
+ * Version: 1.0.3
  * Author: sightFACTORY Ltd.
  * Author URI: http://insights.sightfactory.com/wordpress-plugins/issuu-magazine-display/
  * License: GPLv2 or later
@@ -167,7 +167,7 @@ function json_display_all_magazines($docs){
     foreach( $docs as $doc ){
      
         $html .= '<div class="magazine_item" style="width:'.$thumbnail_size.'%">'; 
-        $html .= '<a href="http://issuu.com/ttcsi/docs/' . $doc->document->name. '" target="_blank">';
+        $html .= '<a href="http://issuu.com/'.$doc->document->username.'/docs/' . $doc->document->name. '" target="_blank">'; //corrected wrong link
 
         //Obtains the image url from the media namespace
         $html .= '<img src="http://image.issuu.com/' . $doc->document->documentId . '/jpg/page_1_thumb_large.jpg"/><br/>';
