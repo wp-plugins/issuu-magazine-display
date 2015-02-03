@@ -1,0 +1,41 @@
+/*Styles sheet to control the layout of the magazine display by the plugin
+*/
+#magazine_display {
+  max-width: 820px;
+  overflow: hidden;
+}
+
+div.magazine_item {
+  border: 1px solid #CCCCCC;
+  display: inline-block;
+  margin: 10px;
+  width: 30%;
+  min-height: auto;
+  position: relative;
+  vertical-align: top;
+}
+
+
+div.magazine_item > a > img {
+    width: 100%;    
+	vertical-align: top;
+}
+
+
+
+div.magazine_info {
+position: absolute;
+bottom: 0px;
+width: 100%;
+word-break: break-word;
+}
+
+span.magazine_title {
+    text-align: center;
+}
+
+.magazine_info > span {
+    font-size: 18px;
+    text-decoration: none;
+    color: #eb3702;
+}
