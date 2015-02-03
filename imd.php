@@ -167,7 +167,7 @@ function json_display_all_magazines($docs){
     foreach( $docs as $doc ){
      
         $html .= '<div class="magazine_item" style="width:'.$thumbnail_size.'%">'; 
-        $html .= '<a href="http://issuu.com/ttcsi/docs/' . $doc->document->name. '" target="_blank">';
+        $html .= '<a href="http://issuu.com/'.$doc->document->username.'/docs/' . $doc->document->name. '" target="_blank">'; //corrected wrong link
 
         //Obtains the image url from the media namespace
         $html .= '<img src="http://image.issuu.com/' . $doc->document->documentId . '/jpg/page_1_thumb_large.jpg"/><br/>';
