@@ -2,7 +2,7 @@
 /**
  * Plugin Name: ISSUU Magazine Display
  * Description: This plugin will display up to 30 of your magazines that are hosted on ISSUU. 
- * Version: 1.0.2
+ * Version: 1.0.3
  * Author: sightFACTORY Ltd.
  * Author URI: http://insights.sightfactory.com/wordpress-plugins/issuu-magazine-display/
  * License: GPLv2 or later
